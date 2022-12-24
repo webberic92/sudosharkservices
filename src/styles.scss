@@ -1,29 +1,32 @@
 /* You can add global styles to this file, and also import other style files */
 @import "~mdb-angular-ui-kit/assets/scss/mdb.scss";
+
 body {
   // background-image: url("https://thebuddhainu.s3.amazonaws.com/background.png");
-  background-image: url("https://toonverse.s3.amazonaws.com/background.jpg");
+  background-image: url("./assets/sharks/cyberSharksSwimming.jpg");
   // -webkit-background-size: wrap;
   // -moz-background-size: cover;
   // -o-background-size: cover;
-   background-size: cover;
- background-attachment: fixed;
+  background-size: cover;
+  background-attachment: fixed;
 }
+
 .main {
   background-color: #fbf1e6;
   border: 1mm ridge pink;
   width: 65%;
   min-width: 400px;
-  opacity:99% ; 
+  opacity: 99%;
 
-  
+
 }
+
 .inside {
   background-color: #404756;
   border: 1mm ridge pink;
   width: 90%;
   min-width: 400px;
-  opacity:95% ; 
+  opacity: 95%;
 }
 
 .card {
@@ -34,6 +37,7 @@ body {
   margin-right: auto;
 
 }
+
 .center-div {
   padding: 1%;
   display: flex;
@@ -62,12 +66,10 @@ body {
   text-shadow: 1px 1px 1px #000;
   border-radius: 10px;
   background-color: white;
-  background-image: linear-gradient(
-    to top left,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 30%,
-    rgba(0, 0, 0, 0)
-  );
+  background-image: linear-gradient(to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0));
   box-shadow: inset 2px 2px 3px pink, inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
@@ -85,12 +87,10 @@ body {
   text-shadow: 1px 1px 1px #000;
   border-radius: 10px;
   background-color: rgb(141, 139, 110);
-  background-image: linear-gradient(
-    to top left,
-    rgba(0, 0, 0, 0.2),
-    rgba(0, 0, 0, 0.2) 30%,
-    rgba(0, 0, 0, 0)
-  );
+  background-image: linear-gradient(to top left,
+      rgba(0, 0, 0, 0.2),
+      rgba(0, 0, 0, 0.2) 30%,
+      rgba(0, 0, 0, 0));
   box-shadow: inset 2px 2px 3px pink, inset -2px -2px 3px rgba(0, 0, 0, 0.6);
 }
 
@@ -151,7 +151,8 @@ p {
 }
 
 #content-wrap {
-  padding-bottom: 2.5rem; /* Footer height */
+  padding-bottom: 2.5rem;
+  /* Footer height */
 }
 
 #footer {
@@ -159,15 +160,27 @@ p {
   left: auto;
   bottom: 0;
   width: 100%;
-  height: 2.5rem; /* Footer height */
+  height: 2.5rem;
+  /* Footer height */
 }
 
-#yellow {
-  color: pink;
+// #logo-icon{
+//   .zoom:hover {
+//     transform: scale(1.5); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+//   }
+// }        
+
+
+
+
+
+
+#navbar-text {
+  color: black;
+  font-weight: bold;
 }
 
-#yellow:hover {
-  color: #a07c07;
+#navbar-text:hover {
   text-decoration: underline;
 }
 
@@ -178,19 +191,21 @@ p {
 #yellowHamburger:hover {
   color: #a07c07;
 }
+
 #teamCard {
   width: 95%;
   margin-bottom: 25px;
   min-width: 275px;
   max-width: 310px;
   background-color: rgb(54, 28, 126);
-    border: 1mm ridge pink;
+  border: 1mm ridge pink;
 }
+
 #manageCard {
   width: 95%;
   margin-bottom: 25px;
   background-color: rgb(54, 28, 126);
-    border: 1mm ridge pink;
+  border: 1mm ridge pink;
   margin-left: auto;
   margin-right: auto;
   min-height: 275px;
@@ -205,6 +220,7 @@ p {
 
   grid-gap: 1rem;
 }
+
 #mintInput {
   background-color: rgba(54, 45, 3, 0.753);
 }

@@ -9,7 +9,7 @@ import { NFTComponent } from './components/nft/nft.component';
 
 const routes: Routes = [
 
-  { path: '', pathMatch: 'full', component: MintComponent },
+  { path: '', pathMatch: 'full', component: HomeComponent },
   { path: 'home', pathMatch: 'full', component: HomeComponent },
   { path: 'manage', pathMatch: 'full', component: ManageComponent },
   { path: 'roadmap', pathMatch: 'full', component: RoadMapComponent },
